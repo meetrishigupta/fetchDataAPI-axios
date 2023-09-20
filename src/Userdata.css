@@ -1,0 +1,44 @@
+.info {
+  background-color: aliceblue;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  width: 32%;
+}
+.imageinfo img {
+  width: 200px;
+  object-fit: contain;
+  height: 200px;
+}
+.info {
+  width: 60%;
+  height: 200px;
+}
+h1 {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.loading {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Optional for horizontal centering */
+}
